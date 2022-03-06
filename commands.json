@@ -1,0 +1,47 @@
+{
+    "prefix": "!",
+    "commands": {
+        "currency": {
+            "enabled": true,
+            "spotifyRequest": {
+                "enabled": false,
+                "cost": 200,
+                "permissionLevel": "ADMINISTRATOR",
+                "api-key": ""
+            },
+            "balance": {
+                "permissionLevel": "USE_SLASH_COMMANDS"
+            },
+            "leaderboard": {
+                "permissionLevel": "USE_SLASH_COMMANDS"
+            },
+            "betting": {
+                "enabled": true,
+                "makebet": {
+                    "permissionLevel": "ADMINISTRATOR"
+                },
+                "placebet": {
+                    "permissionLevel": "USE_SLASH_COMMANDS"
+                },
+                "endbet": {
+                    "permissionLevel": "ADMINISTRATOR"
+                }
+            }
+        },
+        "voting": {
+            "enabled": true,
+            "makevote": {
+                "permissionLevel": "ADMINISTRATOR"
+            }
+        },
+        "color": {
+            "enabled": true,
+            "color": {
+                "permissionLevel": "USE_SLASH_COMMANDS"
+            },
+            "clearcolors": {
+                "permissionLevel": "ADMINISTRATOR"
+            }
+        }
+    }
+}
